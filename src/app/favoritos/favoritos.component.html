@@ -1,0 +1,6 @@
+<h1>Professores</h1>
+<ul *ngFor="let i of professores">
+  <li *ngIf="i.favorito">
+    {{i.nome}}
+  </li>
+</ul>
